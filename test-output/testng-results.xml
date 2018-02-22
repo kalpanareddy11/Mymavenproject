@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8901" started-at="2018-02-21T21:17:21Z" finished-at="2018-02-21T21:17:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8901" started-at="2018-02-21T21:17:21Z" finished-at="2018-02-21T21:17:30Z">
+      <class name="com.Test.qa.Explicitwait">
+        <test-method status="PASS" signature="Explicit()[pri:0, instance:com.Test.qa.Explicitwait@757942a1]" name="Explicit" duration-ms="8876" started-at="2018-02-21T15:17:21Z" finished-at="2018-02-21T15:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Explicit -->
+        <test-method status="FAIL" signature="clickOn(org.openqa.selenium.WebDriver, org.openqa.selenium.WebElement, int)[pri:0, instance:com.Test.qa.Explicitwait@757942a1]" name="clickOn" duration-ms="0" started-at="2018-02-21T15:17:30Z" finished-at="2018-02-21T15:17:30Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Cannot inject @Test annotated Method [clickOn] with [interface org.openqa.selenium.WebDriver, interface org.openqa.selenium.WebElement, int].For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Cannot inject @Test annotated Method [clickOn] with [interface org.openqa.selenium.WebDriver, interface org.openqa.selenium.WebElement, int].For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injectionat org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)at org.testng.internal.Parameters.createParameters(Parameters.java:635)at org.testng.internal.Parameters.handleParameters(Parameters.java:769)at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:914)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn -->
+      </class> <!-- com.Test.qa.Explicitwait -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

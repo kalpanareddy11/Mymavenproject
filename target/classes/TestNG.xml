@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Maven_Project Automation Suite">
+	
+	
+	<listeners>
+	
+	<listener class-name= "com.qa.ExtentReportListener.ExtentReportListener"/>
+</listeners>
+
+</tests>
+
+<test name="Learning Test">
+
+		//<parameter name="URL" value="https://www.linkedin.com/" />
+		//<parameter name="Email" value="kalpana.ponugoti@gmail.com" />
+		//<parameter name="password" value="Abhinav@1" />
+		
+
+		<classes>
+			<class name="com.Test.basicsetup" />
+		</classes>
+
+	</tests>
+</suite>
